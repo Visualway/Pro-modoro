@@ -1,0 +1,22 @@
+{
+    "name": "Pro-modoro : Your one-stop productivity station",
+    "short_name": "Pro-modoro",
+    "start_url": "index.html",
+    "description": "With Pro-modoro you get a highly customizable pomodoro timer, a simple to-do list and a sound generator. Pro-modoro makes sure you have an awesome productivity session",
+    "scope": "./",
+    "icons": [
+      {
+        "src": "public/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "public/ms-icon-310x310.png",
+        "sizes": "310x310",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#591dff",
+    "background_color": "#e45c51",
+    "display": "standalone"
+  }
