@@ -863,3 +863,9 @@ $('input[type="number"]').attr(
 	"onkeypress",
 	"return (event.charCode == 8 || event.charCode == 0) ? null : event.charCode >= 46 && event.charCode <= 57"
 );
+
+// Service Worker
+if ("serviceWorker" in navigator) {
+	// register service worker
+	navigator.serviceWorker.register("service-worker.js");
+  }
